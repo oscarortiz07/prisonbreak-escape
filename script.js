@@ -106,7 +106,7 @@ lockBox.onclick = () => {
   }
 };
 
-let timerSeconds = 10;
+let timerSeconds = 60;
 
 window.onload = () => {
   timerInterval = setInterval(() => {
