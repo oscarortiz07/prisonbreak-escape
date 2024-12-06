@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="/script.js"></script>
+  </head>
+  <body id="body">
+    <div onclick="checkSound()" id="writing">
+      Get past this door before the guards come back to get your freedom!
+      <br />
+      <p id="timer">loading</p>
+    </div>
+    <img id="note" src="./assets/note.png" />
+    <img id="lock" src="./assets/lock.webp" />
+    <img id="key" src="./assets/key.png" alt="" />
+    <div id="lockHint">
+      Looks like I need a key, I wonder whats in the lockbox.
+    </div>
+
+    <img id="lockbox" src="./assets/lockbox.png" />
+    <img id="hint" src="./assets/helpButton.png" />
+
+    <div id="password">
+      <input id="passwordInput" placeholder="password" type="text" />
+      <button id="passwordEnter">ENTER</button>
+    </div>
+
+    <div id="Modal">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <p id="ModalContent"></p>
+      </div>
+    </div>
+    <div id="nextRoom-container">
+      <div id="nextRoom-content">
+        <p>You have successfully opened the door and escaped!</p>
+        <button onclick="nextPuzzle()">Go to your paradise -></button>
+      </div>
+    </div>
+    <div id="cop">
+      <p className="copText">Hey come back here youre going back to jail!</p>
+      <img src="./assets/cop.gif" alt="" />
+    </div>
+    <audio id="keyUnlock" src="assets/keyUnlock.mp3"></audio>
+  </body>
+  <script>
+    const nextPuzzle = () => {
+      // put the link of the next persons puzzle
+      window.location.href = "https://dct4y7.csb.app/";
+    };
+  </script>
+</html>
