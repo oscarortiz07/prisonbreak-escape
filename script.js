@@ -113,7 +113,7 @@ window.onload = () => {
     if (timerSeconds === 0) {
       cop.style.display = "block";
       setTimeout(() => {
-        window.location.href = "https://89y3dr.csb.app/";
+        window.location.href = "https://punkbound.github.io/LVL1/";
       }, 3500);
       clearInterval(timerInterval);
     } else {
