@@ -27,7 +27,7 @@ let hasKey = false;
 note.onclick = () => {
   Modal.style.display = "block";
   ModalText.parentNode.style.backgroundColor = "whitesmoke";
-  ModalText.innerText = "2 1 4 7 5\nhow many letters are in the alphabet?";
+  ModalText.innerText = "A secret is sealed, five numbers wait, but their meanings concealed. The alphabet holds the key, but dont be fooled, its not as easy as it seems. A common set of rules, a map, a match, a guide.\n 2 1 4 7 5";
 };
 
 hint.onclick = () => {
@@ -106,7 +106,7 @@ lockBox.onclick = () => {
   }
 };
 
-let timerSeconds = 60;
+let timerSeconds = 120;
 
 window.onload = () => {
   timerInterval = setInterval(() => {
