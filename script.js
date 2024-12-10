@@ -27,7 +27,7 @@ let hasKey = false;
 note.onclick = () => {
   Modal.style.display = "block";
   ModalText.parentNode.style.backgroundColor = "whitesmoke";
-  ModalText.innerText = "A secret is sealed, five numbers wait, but their meanings concealed. The alphabet holds the key, but dont be fooled, its not as easy as it seems. Each number will lead you through your path, where letters meet numbers, and all feels right.\n 2 1 4 7 5";
+  ModalText.innerText = "A secret is sealed, five numbers wait, but their meanings concealed. The alphabet holds the key, but dont be fooled, where letters meet numbers, your path will be led.\n 2 1 4 7 5";
 };
 
 hint.onclick = () => {
